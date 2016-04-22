@@ -1,0 +1,13 @@
+/*********************************************
+ * OPL 12.6.3.0 Data
+ * Author: zonbe
+ * Creation Date: Mar 4, 2016 at 12:37:27 PM
+ *********************************************/
+n = 31;
+K = 5;
+Q = 100;
+
+SheetConnection mySheet("data.xlsx");
+q from SheetRead(mySheet,"d");
+coordX from SheetRead(mySheet,"x");
+coordY from SheetRead(mySheet,"y");

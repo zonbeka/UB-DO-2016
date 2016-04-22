@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="false" name="ConfigurationP1">
+			<ref name="problem1.mod" type="model">
+			</ref>
+			<ref name="problem1.dat" type="data">
+			</ref>
+			<ref name="problem1.ops" type="setting">
+			</ref>
+		</config>
+		<config category="opl" default="true" name="ConfigurationqP2">
+			<ref name="problem2.mod" type="model">
+			</ref>
+			<ref name="problem2.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

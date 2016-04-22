@@ -1,0 +1,19 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: Hernán
+ * Creation Date: Feb 11, 2015 at 9:26:59 AM
+ *********************************************/
+ 
+ n=4;
+ m=3;
+ 
+ SheetConnection mySheet("data.xlsx");
+ 
+ weight from SheetRead(mySheet,"'LP example'!F2:F5");
+ volume from SheetRead(mySheet,"volume");
+ profit from SheetRead(mySheet,"profit");
+ 
+ weight_cap from SheetRead(mySheet,"weight_cap");
+ space_cap from SheetRead(mySheet,"space_cap");
+ 
+ x to SheetWrite(mySheet,"result");
